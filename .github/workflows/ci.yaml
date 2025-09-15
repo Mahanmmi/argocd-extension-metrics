@@ -15,7 +15,7 @@ jobs:
       - name: Set up Go 1.x
         uses: actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe # pin@v4
         with:
-          go-version: "1.21"
+          go-version: "1.24.3"
         id: go
       - name: Check out code into the Go module directory
         uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # pin@v3
@@ -39,7 +39,7 @@ jobs:
       - name: Setup Golang
         uses: actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe # pin@v4
         with:
-          go-version: "1.21"
+          go-version: "1.24.3"
       - name: Restore Go build cache
         uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # pin@v4.2.4
         with:
